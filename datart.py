@@ -87,4 +87,5 @@ def fetch_price(url, headers):
 
     return price
 
-fetch_price(url, headers)
+if __name__ == "__main__":
+    fetch_price(url, headers) 
